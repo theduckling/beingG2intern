@@ -1,0 +1,55 @@
+body {
+    background-image: url("/plantomatic/image/3114651.jpg");
+    background-size: cover;
+}
+
+.container {
+    color: aliceblue;
+    text-align: center;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 25vw;
+    margin-left: 37vw;
+    margin-top: 8%;
+}
+
+.username {
+    font-size: larger;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.password {
+    font-size: larger;
+    text-transform: capitalize;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+.input {
+    width: 14vw;
+    height: 1.5vw;
+}
+
+.log_btn {
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    background-color: rgb(255, 201, 22);
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    font-weight: 600;
+}
